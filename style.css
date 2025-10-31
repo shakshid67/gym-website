@@ -1,0 +1,352 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(102, 183, 131);
+      font-family: "Hedvig Letters Serif", serif;
+color:rgb(7, 21, 22);
+scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+nav h1{
+    font-size: 40px;
+color:rgb(7, 21, 22);
+}
+.nav-links a{
+color:rgb(7, 21, 22);
+    text-decoration: none;
+    font-size: 20px;
+}
+.section-1{
+    display: flex;
+    max-width: 1200px;
+       margin: auto;
+color:rgb(7, 21, 22);
+}
+.section-1-box{
+    width: 50%;
+   
+}
+.section-1-box-2{
+    text-align: center;
+    font-size: 40px;
+}
+.tagline{
+    font-size: 40px;
+    font-weight: 900;
+color:rgb(7, 21, 22);
+}
+.section-1-box button {
+    background-color:rgb(7, 21, 22);
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px ;
+    border-radius: 10px;
+    border: none;
+    }
+    .section-1-box button:hover{
+        color: rgb(102, 183, 131);
+    }
+.section-2{
+background-color:rgb(7, 21, 22);
+    color: rgb(252, 249, 249);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 0;
+}
+.section-2-box{
+    text-align: center;
+}
+
+.section-2-box i{
+     font-size: 60px;
+}
+.section-2-box i:hover{
+color:rgb(102, 183, 131);
+}
+.section-3{
+ display: flex;
+gap: 40px;
+ padding: 80px 0px;
+ margin: 50px 0px;
+ justify-content: center;
+}
+.section-3 img{
+    height: 500px;
+width: 500px;
+object-fit: cover;
+}
+.section-3 img:hover{
+    scale: 1.1;
+    transition: ease-in-out .9s;
+}
+
+.section-4{
+    text-align: center;
+    padding: 50px 0;
+}
+.h2{
+    font-size: 30px;
+}
+.section-4 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 150%;
+
+}
+.section-4 p {
+    max-width: 600px;
+    margin: auto;
+}
+.section-4-box{
+    display: flex;
+    padding: 20px;
+    justify-content: center;gap: 30px;align-items: center;
+}
+
+.section-5{
+    display: flex;
+    justify-content: space-evenly;align-items: center;
+
+}
+
+.section-5 img{
+    height: 150px;
+    width: 150px;
+    object-fit: scale-down;
+    filter: invert(2);
+}
+.section-5 img:hover{
+    scale: 1.4;
+    transition: ease-in-out .9s;
+}
+
+.section-6{
+    text-align: center;
+    padding: 50px;
+    background-color:rgb(7, 21, 22);
+
+    color: rgb(255, 249, 249);
+}
+.section-6 h5{
+ font-size: 30px;
+}
+.section-7{
+display: flex;
+ color: rgb(9, 9, 9);
+gap: 50px;
+ padding: 50px 0px;
+ /* margin: 10px 0px; */
+ justify-content: center;
+background-color: rgb(3, 23, 22);
+    font-size: 20px;
+
+}
+  
+.section-7-box{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+.section-7-box button {
+color:rgb(243, 249, 249);
+  background-color: rgb(7, 21, 22);
+  font-size: 20px;
+    padding: 15px 20px ;
+    border-radius: 10px;
+    border: none;
+
+}
+.section-7-box button:hover{
+    background-color:rgb(102, 183, 131);
+
+}
+
+.section-7-box:hover{
+    scale: 1.1;
+    transition: ease-in-out .9s;
+}
+
+.section-8{
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.section-8 button{
+color:rgb(7, 21, 22);
+    background-color:white;
+
+    padding: 20px 10px;
+  font-size: 20px;
+    border-radius:20px;
+    border: none;
+}
+.section-8 button:hover{
+    background-color:rgb(7, 21, 22)(134, 140, 251);
+}
+
+   
+
+
+
+.loginContainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/health-club-without-people-with-exercise-equipment.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.loginBox{
+    /* height: 600px; */
+    width: 500px;
+    border: 2px solid rgb(220, 216, 216);
+    border-radius: 20px;
+        backdrop-filter: blur(20px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(7, 21, 22);padding: 20px;
+        gap: 20px;
+      
+
+}
+.box{
+    display: flex;
+}
+.loginBox input{
+    width: 100%;
+    height: 50px;
+      background: none;
+        border: none;
+        border-bottom: 2px solid white;
+}
+.remembermrrow{
+    display: flex;
+ justify-content:space-between ;align-items: center;
+ width: 100%;
+
+}
+.checkboxdiv{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    width: 40%;
+}
+.checkboxdiv input{
+    height: 20px;
+    width: 20px;
+}
+    
+    
+.link{
+        display: flex;
+    justify-content: start;
+
+
+}
+
+
+
+
+.loginBox button{
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 21, 22);
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.checkboxdiv label{
+    width: 80%;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.menuBtn{
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 600px){
+    body{
+        /* background-color: rgb(255, 0, 0); */
+/* font-size: 14px; */
+    }
+    .menuBtn{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .section-1{
+        flex-direction: column;
+    }
+    .section-1-box{
+        width: 100%;
+    }
+    .section-1-box-2 img{
+        width: 100%;
+    }
+
+
+    .section-2{
+        flex-direction: column;
+    }
+
+    
+.section-3{
+        flex-direction: column;
+}
+.section-3 img{
+    height: 350px;
+width: 350px;
+}
+ .section-5{
+    display: flow-root;
+}
+
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+   }
